@@ -7,10 +7,10 @@ const Banner = () => {
   return (
     <div className="bg-[#F2F7FF] w-full">
       <div className="max-w-[1240px] mx-auto">
-        <div className="hero-content flex-col lg:flex-row-reverse py-20 ">
-          <img alt="" src={doctorImg} className="max-w-sm " />
+        <div className="hero-content flex-col lg:flex-row-reverse py-20 px-10">
+          <img alt="" src={doctorImg} className="w-full" />
           <div>
-            <h1 className="text-5xl font-bold text-headertext">
+            <h1 className="text-3xl md:text-5xl font-bold text-headertext">
               Modern Dentistry in a calm and relaxed way
             </h1>
             <p className="py-6 ">

@@ -8,7 +8,7 @@ const TestimonialCard = ({ testimonial }) => {
       <p className="text-xl italic text-headertext py-3">{description}</p>
       <>
         <div className="flex pt-5">
-          <img src={img} alt="" className="pr-5 w-20" />
+          <img src={img} alt="" className="pr-5 w-full md:w-20" />
 
           <div className="">
             <h3 className="text-xl font-semibold text-primary">{name}</h3>
