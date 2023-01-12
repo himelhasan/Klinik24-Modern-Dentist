@@ -186,7 +186,7 @@ const Home = () => {
             function of providing comprehensive (comprehensive) services.
           </p>
 
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col md:block gap-5">
             {" "}
             <button className=" btn btn-outline border-white text-white gap-2 mx-2 rounded-3xl">
               {" "}
