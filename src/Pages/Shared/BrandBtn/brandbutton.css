@@ -1,0 +1,14 @@
+.BrandBtn {
+  padding: 16px 40px;
+  background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+  box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+  border-radius: 50px;
+  color: white;
+}
+.BrandBtn:hover {
+  padding: 16px 40px;
+  background: linear-gradient(175.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+  box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+  border-radius: 50px;
+  color: white;
+}
