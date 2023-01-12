@@ -4,7 +4,7 @@ import BrandBtn from "../BrandBtn/BrandBtn";
 const ServiceBox = ({ service }) => {
   const { img, name, description } = service;
   return (
-    <div className="shadow-xl bg-white px-5 py-5 rounded-xl shadow-secondary">
+    <div className="shadow-xl bg-white px-10 py-8 rounded-xl shadow-secondary">
       <img src={img} alt="" />
       <h3 className="text-black text-2xl font-semibold py-3">{name}</h3>
       <p className="text-sm text-text py-3">{description}</p>

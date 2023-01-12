@@ -6,11 +6,11 @@ import svg from "../../../Media/pasient.svg";
 const Banner = () => {
   return (
     <div className="bg-[#F2F7FF] w-full">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1240px] mx-auto">
         <div className="hero-content flex-col lg:flex-row-reverse py-20 ">
           <img alt="" src={doctorImg} className="max-w-sm " />
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-bold text-headertext">
               Modern Dentistry in a calm and relaxed way
             </h1>
             <p className="py-6 ">
